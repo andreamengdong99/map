@@ -33,35 +33,17 @@ const config = {
   fields: [
     X1998,
     X1999,
-    X2000,
+    X2000
     ,
   ],
   /**
    * Labels for the X Axis, one for each field
    */
-  labels: [ 'X1998',
-  'X1999',
-  'X2000',
-  'X2001',
-  'X2002',
-  'X2003',
-  'X2004',
-  'X2005',
-  'X2006',
-  'X2007',
-  'X2008',
-  'X2009',
-  'X2010',
-  'X2011',
-  'X2012',
-  'X2013',
-  'X2014',
-  'X2015',
-  'X2016',
-  'X2017',
-  'X2018',
-  'X2019',
-  'X2020',],
+  labels: [
+    X1998,
+    X1999,
+    X2000
+    ,],
   /**
    * The name of the data field to pull the place name from for chart labeling ("Total Votes in placeNameField, placeAdminField")
    */
