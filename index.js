@@ -97,7 +97,7 @@ const config = {
   /**
    * Label for the graph line
    */
-  dataSeriesLabel: 'Annuam Average PM 2.5',
+  dataSeriesLabel: 'Annual Average PM 2.5',
   /**
    * Basic implementation of zooming to a clicked feature
    */
