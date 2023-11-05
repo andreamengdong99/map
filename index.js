@@ -278,7 +278,7 @@ function updateChartFromFeatures(features) {
  */
 function updateChartFromClick(feature) {
   const data = config.fields.reduce((acc, field) => {
-    acc.push(features.properties[field]);
+    acc.push(feature.properties[field]);
     return acc;
   }, []);
 
