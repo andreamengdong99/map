@@ -278,7 +278,7 @@ function updateChartFromFeatures(features) {
  */
 function updateChartFromClick(feature) {
   const data = config.fields.reduce((acc, field) => {
-    acc.push(feature.properties[field]);
+    acc.push(features.properties[field]);
     return acc;
   }, []);
 
@@ -288,10 +288,10 @@ function updateChartFromClick(feature) {
       // Update this to match data fields if you don't have the same data schema, it will look for `name` and `state_abbrev` fields
       data: config.placeAdminField
         ? `${config.dataSeriesLabel} in ${
-            feature.properties[config.placeNameField]
-          }, ${feature.properties[config.placeAdminField]}`
+            features.properties[config.placeNameField]
+          }, ${features.properties[config.placeAdminField]}`
         : `${config.dataSeriesLabel} in ${
-            feature.properties[config.placeNameField]
+            features.properties[config.placeNameField]
           }`,
     },
   });
